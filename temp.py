@@ -2,7 +2,6 @@ import requests
 from instagrapi import Client
 from pymongo import MongoClient
 import os
-import schedule
 import time
 
 # MongoDB setup
@@ -45,11 +44,10 @@ def job_830pm():
     if reel:
         upload_reel(reel)
 
-# Schedule the jobs
-schedule.every().day.at("09:30").do(job_930am)
-schedule.every().day.at("20:30").do(job_830pm)
+# Directly call job_830pm
+job_830pm()
 
-# Run the scheduler
+# If you want to keep the script running for future calls, you can add a sleep or similar logic
+# For example:
 while True:
-    schedule.run_pending()
-    time.sleep(60)  # Wait a minute before checking again
+    time.sleep(60)  # Keep the script running; adjust as needed
