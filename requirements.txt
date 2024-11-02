@@ -3,3 +3,4 @@ instagrapi
 pymongo
 schedule
 Pillow
+moviepy
