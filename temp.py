@@ -11,7 +11,7 @@ collection = db['videos']
 
 # Initialize the Instagram client
 client = Client()
-client.login('rooohaaan_07', 'Disha@007')
+client.login('diiishaaa_07', 'DarshanV@2234')
 
 def upload_reel(reel):
     url = reel['videoUrl']
