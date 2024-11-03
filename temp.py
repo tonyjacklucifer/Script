@@ -56,11 +56,11 @@ def login_with_otp(username, password, email_user, email_pass):
     return True
 
 # Update with your email credentials
-email_user = os.getenv('EMAIL')  # Your email
-email_pass = os.getenv('EMAIL_PASSWORD')  # Your email password
+email_user = "tonyjacklucifer123@gmail.com"  # Your email
+email_pass = "TonyJackLucifer@1234"  # Your email password
 
 # Log in
-if login_with_otp('diiishaaa_07', 'Disha@007', email_user, email_pass):
+if login_with_otp('niiishaaa_07', 'Disha@007$', email_user, email_pass):
     def upload_reel(reel):
         url = reel['videoUrl']
         caption = reel['caption']
