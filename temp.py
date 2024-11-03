@@ -60,7 +60,7 @@ email_user = "tonyjacklucifer123@gmail.com"  # Your email
 email_pass = "TonyJackLucifer@1234"  # Your email password
 
 # Log in
-if login_with_otp('niiishaaa_07', 'Disha@007$', email_user, email_pass):
+if login_with_otp('Diiishaaa_07', 'Disha@007$', email_user, email_pass):
     def upload_reel(reel):
         url = reel['videoUrl']
         caption = reel['caption']
