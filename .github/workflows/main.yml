@@ -1,9 +1,9 @@
 name: Scheduled Python Script
 
-on:
-  schedule:
-    - cron: '30 4,14 * * *'  # Runs at 9:30 AM and 8:30 PM UTC
-  workflow_dispatch:
+# on:
+  # schedule:
+  #   - cron: '30 4,14 * * *'  # Runs at 9:30 AM and 8:30 PM UTC
+  # workflow_dispatch:
 
 jobs:
   run-script:
